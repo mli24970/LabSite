@@ -30,7 +30,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div id="members">
+      <div id="projects">
         <h2 className="title">&lt; Projects /&gt;</h2>
         <div>{this.getProjects('major')}</div>
         <div>{this.getProjects('minor')}</div>

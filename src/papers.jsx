@@ -27,7 +27,7 @@ class Papers extends Component {
 
   render() {
     return (
-      <div id="members">
+      <div id="papers">
         <h2 className="title">../Selected_Papers</h2>
         <div>{this.getPapers()}</div>
       </div>
